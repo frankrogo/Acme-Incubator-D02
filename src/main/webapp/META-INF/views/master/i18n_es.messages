@@ -61,6 +61,11 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.administrator.list-notice = Lista de avisos
+master.menu.administrator.list-technology-record = Lista de registro de tecnología
+master.menu.administrator.list-tool-record = Lista de registro de herramienta
+master.menu.administrator.list-inquiry = Lista de consultas
+master.menu.administrator.list-overture = Lista de propuestas
+master.menu.administrator.list-challenge = Lista de retos
 master.menu.administrator.configuration = Parametros de customización
 
 # master.menu.provider ########################################################

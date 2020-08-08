@@ -42,6 +42,16 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.list-notice" action="/administrator/notice/list" />
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.list-technology-record" action="/authenticated/technology-record/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.list-tool-record" action="/authenticated/tool-record/list"/>
+			<acme:menu-separator/>
+		    <acme:menu-suboption code="master.menu.administrator.list-inquiry" action="/authenticated/inquiry/list" />
+			<acme:menu-separator/>	
+		    <acme:menu-suboption code="master.menu.administrator.list-overture" action="/authenticated/overture/list" />
+			<acme:menu-separator/> 
+	      	<acme:menu-suboption code="master.menu.administrator.list-challenge" action="/authenticated/challenge/list"/>
+	      	<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.configuration" action="/administrator/configuration/show" />	
 		</acme:menu-option>
 		
