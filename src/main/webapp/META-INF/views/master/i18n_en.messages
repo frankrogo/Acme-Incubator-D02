@@ -39,11 +39,29 @@ master.menu.anonymous.perea-bulletin.create = New Perea bulletin
 master.menu.anonymous.rodriguez-bulletin.list =  List Rodriguez bulletins
 master.menu.anonymous.rodriguez-bulletin.create = New Rodriguez bulletin
 
+master.menu.anonymous.list-notice = List notices
+master.menu.anonymous.list-technology-record = List technology records
+master.menu.anonymous.list-tool-record = List Tool records
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Authenticated
+
+master.menu.authenticated.list-notice = List notices
+master.menu.authenticated.list-technology-record = List technology records
+master.menu.authenticated.list-tool-record = List tool records
+master.menu.authenticated.list-inquiry = List inquiries
+master.menu.authenticated.list-overture = List overtures
+master.menu.authenticated.list-challenge = List challenges
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
+
+master.menu.administrator.list-notice = List notices
+master.menu.administrator.configuration = Customisation parameters
 
 # master.menu.provider ########################################################
 
