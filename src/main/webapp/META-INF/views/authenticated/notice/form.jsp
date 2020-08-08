@@ -5,7 +5,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="authenticated.notice.form.label.header" path="header"/>
+	<img src ="${header}" alt="authenticated.notice.form.label.header"/>
 	<acme:form-textbox code="authenticated.notice.form.label.title" path="title"/>
 	<acme:form-moment code="authenticated.notice.form.label.creationMoment" path="creationMoment"/>
 	<acme:form-moment code="authenticated.notice.form.label.deadline" path="deadline"/>
