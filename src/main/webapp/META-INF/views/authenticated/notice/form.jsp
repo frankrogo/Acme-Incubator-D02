@@ -18,7 +18,7 @@
 	<acme:form-textarea code="authenticated.notice.form.label.body" path="body"/>
 	
 	<jstl:if test="${command == 'show'}">
-	<h6><strong><spring:message code="anonymous.notice.form.label.links"></spring:message></strong></h6>
+	<h6><strong><spring:message code="authenticated.notice.form.label.links"></spring:message></strong></h6>
 	<ul>
 		<jstl:forEach items="${links}" var="link">
 			<li>
