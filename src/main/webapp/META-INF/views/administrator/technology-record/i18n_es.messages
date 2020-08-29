@@ -9,5 +9,7 @@ administrator.technology-record.form.label.source = Tipo de código:
 administrator.technology-record.form.button.return = Volver
 
 
+administrator.technology-record.list.label.stars = Estrellas
+administrator.technology-record.list.label.sector = Sector
 administrator.technology-record.list.label.title = Título
 administrator.technology-record.list.label.inventorName = Nombre del inventor

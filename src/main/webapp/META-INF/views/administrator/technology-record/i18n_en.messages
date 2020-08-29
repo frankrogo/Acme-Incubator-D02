@@ -8,6 +8,8 @@ administrator.technology-record.form.label.stars = Stars:
 administrator.technology-record.form.label.source = Type of source:
 administrator.technology-record.form.button.return = Return
 
+administrator.technology-record.list.label.stars = Stars
+administrator.technology-record.list.label.sector = Sector
 administrator.technology-record.list.label.title = Title
 administrator.technology-record.list.label.inventorName = Inventor name
 

@@ -17,6 +17,15 @@
 
 	<import resource="conversion-service.xml" />
 	
+	<!-- Configuration -->
+	
+	<bean id="configuration" class="acme.entities.configurations.Configuration">
+		<property name="spamWords" value="sex,hard core,viagra,cialis,nigeria,you've won,
+		million dollar,sexo,duro,has ganado,millón de dólares"/>
+		<property name="spamThreshold" value="2.50"/>
+		<property name="activitySectors" value="Technology, Science, Arts, Business, Health"></property> 
+	</bean>
+	
 	<!-- Bulletins -->
 	
 	<bean id="bulletin01" class="acme.entities.pereaBulletins.pereaBulletin">
@@ -31,20 +40,10 @@
 		<property name="moment" value="2019/08/09 15:55"/>
 	</bean>
 	
-	
-	<!-- Configuration -->
-	
-	<bean id="configuration" class="acme.entities.configurations.Configuration">
-		<property name="spamWords" value="sex,hard core,viagra,cialis,nigeria,you've won,
-		million dollar,sexo,duro,has ganado,millón de dólares"/>
-		<property name="spamThreshold" value="2.50"/>
-		<property name="activitySectors" value="Technology, Science, Arts, Business, Health"></property> 
-	</bean>
-	
 	<!-- Notices -->
 		
 	<bean id="notice01" class="acme.entities.notices.Notice">
-		<property name="header" value="https://phantom-elmundo.unidadeditorial.es/ab3588cdbeaaa4171cf10c3d9da481e3/resize/600/f/webp/assets/multimedia/imagenes/2020/06/09/15917076655032.jpg" />
+		<property name="headerImage" value="https://phantom-elmundo.unidadeditorial.es/ab3588cdbeaaa4171cf10c3d9da481e3/resize/600/f/webp/assets/multimedia/imagenes/2020/06/09/15917076655032.jpg" />
 		<property name="title" value="Notice 01" />
 		<property name="creationMoment" value="2019/02/15 17:45" />
 		<property name="deadline" value="2021/12/31 23:11" />
@@ -53,7 +52,7 @@
 	</bean>
 	
 	<bean id="notice02" class="acme.entities.notices.Notice">
-		<property name="header" value="https://phantom-elmundo.unidadeditorial.es/ab3588cdbeaaa4171cf10c3d9da481e3/resize/600/f/webp/assets/multimedia/imagenes/2020/06/09/15917076655032.jpg" />
+		<property name="headerImage" value="https://phantom-elmundo.unidadeditorial.es/ab3588cdbeaaa4171cf10c3d9da481e3/resize/600/f/webp/assets/multimedia/imagenes/2020/06/09/15917076655032.jpg" />
 		<property name="title" value="Notice 02" />
 		<property name="creationMoment" value="2019/01/15 17:45" />
 		<property name="deadline" value="2021/07/31 23:11" />
@@ -62,7 +61,7 @@
 	</bean>
 	
 	<bean id="notice03" class="acme.entities.notices.Notice">
-		<property name="header" value="https://phantom-elmundo.unidadeditorial.es/d3263622be6928b999f39695a59dde7f/crop/0x22/680x474/resize/600/f/webp/assets/multimedia/imagenes/2020/06/25/15931004862474.jpg" />
+		<property name="headerImage" value="https://phantom-elmundo.unidadeditorial.es/d3263622be6928b999f39695a59dde7f/crop/0x22/680x474/resize/600/f/webp/assets/multimedia/imagenes/2020/06/25/15931004862474.jpg" />
 		<property name="title" value="Notice 03" />
 		<property name="creationMoment" value="2019/10/15 00:01" />
 		<property name="deadline" value="2021/01/30 07:11" />
@@ -71,7 +70,7 @@
 	</bean>
 	
 	<bean id="notice04" class="acme.entities.notices.Notice">
-		<property name="header" value="https://www.inversi.cl/wp-content/uploads/2018/02/header-bg.png" />
+		<property name="headerImage" value="https://www.inversi.cl/wp-content/uploads/2018/02/header-bg.png" />
 		<property name="title" value="Notice 04" />
 		<property name="creationMoment" value="2019/10/15 00:01" />
 		<property name="deadline" value="2020/06/28 07:11" />
